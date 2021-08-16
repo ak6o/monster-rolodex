@@ -1,0 +1,10 @@
+Promise :
+
+Une promesse peut soit avoir une 'resolve' (succesful) ou 'reject' (error) value
+Si on veut continuer sur le resultat resolve utiliser .then(    =>    )
+si on veut handle l'erreur 'reject' utiliser .catch(   =>     )
+
+.then() peut seulement etre appele sur une 'resolve promise'
+il peut etre chainé par plusieur then ... le resultat du precedant then est donc wrappé
+
+quand on call la function fetch, elle renvoie une promise 
